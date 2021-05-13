@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3</title>
+    <style>
+        /* css reset */
+
+        html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+        /* HTML5 display-role reset for older browsers */
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+        }
+
+        ol,
+        ul {
+            list-style: none;
+        }
+
+        blockquote,
+        q {
+            quotes: none;
+        }
+
+        blockquote:before,
+        blockquote:after,
+        q:before,
+        q:after {
+            content: '';
+            content: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        /* css rest end  */
+
+        body {
+            box-sizing: border-box;
+        }
+    </style>
+    <style>
+        body {
+            background: #BFC9D6; 
+            font-family: Arial, Helvetica, sans-serif;
+            overflow: hidden;
+        }
+
+        .header {
+            width: 100%;
+            margin-top: -1px;
+            margin-left: -1px;
+        }
+
+        .header img {
+            width: 100%;
+        }
+
+        .main {
+            /* background: rgb(119, 74, 74); */
+
+        }
+
+        .main-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            /* background: rgb(68, 60, 60); */
+            display: flex;
+        }
+
+        .main-content {
+            max-width: 450px;
+            margin-right: 20px;
+        }
+
+        .main-content p {
+            font-size: 17px;
+            margin: 15px 0;
+            color: rgb(129, 119, 119);
+        }
+
+        .bar-content {
+            height: 550px;
+            width: 100%;
+            /* background: rgb(153, 51, 51); */
+            margin-top: 10px;
+            border: 2px solid rgb(255, 255, 255);
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="header">
+            <img src="page3top.png" alt="" style="transform: scale(1.009);">
+        </div>
+        <div class="main">
+            <div class="content-col" style="margin-top: 50px;">
+                <div class="head1">
+                    Cash Price:
+                </div>
+
+
+                <!-- <div class="head2">
+                    Payment amounts are due at different stages of the installation as specified on your installation contract.
+                </div> -->
+
+                <div class="head3" style="max-width: 400px;">
+                    Payment amounts are due at different stages of the installation as specified on your installation contract.
+
+                </div>
+            </div>
+
+            <div class="content-bar">
+                <div class="head1">
+                    <span class="head-col" style="padding: 10px 10px 30px 10px;">Your Solar System</span>
+                    <span class="sub-row" style="padding: 10px 10px 30px 10px;">Q1</span>
+                </div>
+
+                <div class="head2">
+                    <span class="head-col">Cash Price</span>
+                    <span class="sub-row">[cash-price]</span>
+                </div>
+
+                <div class="head3">
+                    <span class="head-col">Tax Rebate on Cash Price</span>
+                    <span class="sub-row">[cash-tax-rebate]</span>
+                </div>
+
+                <div class="head4">
+                    <span class="head-col">Other incentives</span>
+                    <span class="sub-row">[other-incentives]</span>
+                </div>
+                
+                <div class="head5">
+                    <span class="head-col">Net Price</span>
+                    <span class="sub-row">[net-cash-price]</span>
+                </div>
+
+                <div class="head6">
+                    <span class="head-col">Price Per Watt</span>
+                    <span class="sub-row">[piece-watt-cash]</span>
+                </div>
+
+                <div class="head7">
+                    <span class="head-col">Electricity cost per KWH</span>
+                    <span class="sub-row">[cost/kwh-cash]</span>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <style> 
+            .content-bar{
+                /* background: rgb(201, 185, 185); */
+                font-size: 25px;
+                font-weight: 500;
+                outline: 3px solid rgb(255, 255, 255);
+                margin: 20px 0;
+            }
+            
+            .content-bar .head1{
+                background: #5d71a8;
+                color: #fff;
+            }
+            .content-bar .head3,
+            .content-bar .head5,
+            .content-bar .head7
+            {
+                background: #E9EBF1;
+                /* color: #fff; */
+            }
+            .content-bar .head1,
+            .content-bar .head2,
+            .content-bar .head3,
+            .content-bar .head4,
+            .content-bar .head5,
+            .content-bar .head6,
+            .content-bar .head7
+            {
+                /* background: #fff; */
+                display: flex;
+                justify-content: space-between;
+            }
+
+
+            .content-bar span.head-col{
+                outline: 3px solid rgb(255, 255, 255);
+                /* background: red; */
+                width: 100%;
+                padding: 20px 10px;
+            }
+            .content-bar span.sub-row{
+                outline: 3px solid rgb(255, 255, 255);
+                /* background: rgb(158, 149, 149); */
+                min-width: 200px;
+                max-width: 200px;
+                padding: 20px 10px;
+
+            }
+        </style>
+        <style>
+                .main{
+                    /* background: red; */
+                    height: 500px;
+                    display: flex;
+                    justify-content: space-between;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                }
+
+            .content-col{
+                /* background: rgb(201, 185, 185); */
+                font-size: 25px;
+                font-weight: 500;
+                margin: 20px 0;
+                color: rgba(0, 0, 0, 0.575);
+            }
+            .content-col .head3
+            {
+                /* background: #fff; */
+                margin: 50px 0 0 0;
+            }
+
+            .content-col .head1 span,
+            .content-col .head2 span,
+            .content-col .head3 span
+            {
+                display: block;
+                /* background: red; */
+                margin: 10px 0;
+            }
+
+        </style>
+
+<div class="logo">
+    <img src="https://raw.githubusercontent.com/thekiran/pid/main/logo.png" alt="">
+    <style>
+        .logo{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            height: 160px;
+            width: 230px;
+        } 
+        .logo svg{
+            height: 100%;
+            width: 100%;
+        }
+        .logo img{
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+  </div>
+
+
+    <button class="cnv-btn" onclick="window.print();">Convert</button>
+    <style>
+        .cnv-btn {
+            position: fixed;
+            bottom: 1%;
+            right: 0%;
+            height: 20px;
+            width: 100px;
+        }
+    </style> 
+</body>
+
+</html>
