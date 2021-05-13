@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>page 9</title>
+    <title>page 10</title>
     <style>
         /* css reset */
 
@@ -151,7 +151,7 @@
         -webkit-print-color-adjust: exact !important;
         }
         body{
-        background: #adbbcd;
+        background: #b1bdcbde;
         font-family: Arial, Helvetica, sans-serif;
         overflow: hidden;}
         .header {
@@ -165,6 +165,8 @@
 
         .main{
             display: flex;
+            width: 1200px;
+            margin: 0 auto;
         } 
     </style>
 </head>
@@ -172,82 +174,69 @@
 <body>
     <div class="page-container">
         <div class="header">
-            <img src="page9top.png" alt="">
+            <img src="page10top.png" alt="">
         </div>
      <div class="main">
-        <div class="icon">
-            <img src="page9icon.png" alt="">
+        <div class="icon1">
+            <img src="icon1.png" alt="">
+            <p>Customer 1 </p>
+            <p>testimonial</p>
         </div>
-        <div class="content">
-            <div class="cont-head">
-                <span class="legend"> Hi,</span>&nbsp;I am Brandy, I am an Artificial Intelligent Human, who can answer your question <br>
-            </div>
-           <div class="cont-mid">
-            <span> CLICK HERE</span>&nbsp;to talk to me!
-           </div>
-           <div class="cont-end">
-               <p>
-                SOLARIT®
-               </p>
-               <p>855.91.SOLAR   855,917.6527
-         </p>
-         <a href="">Sales@SOLARIT.org</a>
-         <p>
-           https://solarit.org
-         </p>
-           </div>
+        <div class="icon2">
+            <img src="icon2.png" alt="">
+            <p>Customer 2 </p>
+            <p>testimonial</p>
         </div>
-        <style>
-.content{
-    margin: 40px 0;
-    font-size: 30px;
-    max-width: 550px;
-}
-.content .cont-head{
-    margin: 40px 0;
-
-}
-.content span{
-    color: rgb(62, 23, 168);
-}
-.content .cont-mid{
-    margin: 40px 0;
-    font-size: 40px;
-    font-weight: 500;
-
-}
-.content .cont-end{
-    margin: 70px 0;
-    font-size: 30px;
-}
-.content .cont-end a{
-    color: rgba(0, 174, 255, 0.733);
-}
-.content .cont-end p{
-    display: block;
-    margin: 15px 0;
-}
-.content .legend{
-    font-size: 45px;
-}
-        </style>
+        <div class="icon3">
+            <img src="icon3.png" alt="">
+            <p>Customer 3 </p>
+            <p>testimonial</p>
+        </div>
      </div>
-       <style>
-           .icon{
-               /* position: fixed;
-               bottom: 0;
-               left: 0; */
-               height: 625px;
-               width: 50%;
-           }  
-           .icon img{
-               height: 100%;
-               width: 90%;
-               margin: 20px 0;
-           }
-       </style>
+    
+     <style>
+         .icon1{
+             height: 300px;
+             width: 400px;
+         }
+         .icon2,.icon3{
+             height: 300px;
+             width: 350px;
+         }
+         .icon1,.icon2,.icon3{ 
+             font-size: 30px;
+             color: rgba(0, 0, 0, 0.486);
+             margin:20px 50px;
+         }
+         
+         .icon1 img,.icon2 img,.icon3 img{
+             display: block;
+             height: 100%;
+             width: 100%;
+             margin: 0 0 20px 0;
+         }
+     </style>
     </div>
-
+    <div class="logo">
+        <img src="https://raw.githubusercontent.com/thekiran/pid/main/logo.png" alt="">
+      </div>
+     <style>
+         .logo{
+             position: fixed;
+             bottom: 0;
+             left: 0;
+             height: 160px;
+             width: 230px;
+         } 
+         .logo svg{
+             height: 100%;
+             width: 100%;
+         }
+         .logo img{
+             height: 100%;
+             width: 100%;
+         }
+     </style>
     <button class="cnv-btn" onclick="window.print();">Convert</button>
     <style>
         .cnv-btn{
